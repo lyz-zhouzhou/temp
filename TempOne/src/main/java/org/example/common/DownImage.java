@@ -58,7 +58,6 @@ public class DownImage {
             } catch (Exception e) {
                 e.printStackTrace();
                 System.out.println("下载失败，正在跳过！！！");
-                continue;
             }
         }
         downLoadImage(index, i, URLauthorName, recent, path);
